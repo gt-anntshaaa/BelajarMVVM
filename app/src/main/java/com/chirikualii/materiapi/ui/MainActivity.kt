@@ -27,8 +27,7 @@ class MainActivity : AppCompatActivity() {
         adapter = MovieListAdapter()
         binding.rvMovie.adapter = adapter
 
-        //inset data dummy
-        loadDataFromApi()
+
 
 
     }
